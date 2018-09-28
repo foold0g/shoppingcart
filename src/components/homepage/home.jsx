@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "../navigation/navbar";
+import Counter from "../counter";
 
 class Homepage extends Component {
   state = {};
@@ -9,7 +10,7 @@ class Homepage extends Component {
         <Navbar />
         <div class="content-area">
           <div class="content-panel left-panel">
-            <p class="col-indent">This is col1</p>
+            <Counter class="col-indent" />
           </div>
           <div class="content-panel center-panel">
             <p class="col-indent">

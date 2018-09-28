@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Counter extends Component {
   state = {
     value: this.props.value,
-    tags: ["Apple", "Orange", "Grape"]
+    tags: []
   };
 
   //   constructor() {
@@ -26,9 +26,10 @@ class Counter extends Component {
     );
   }
   incrementCounter = () => {
+    let shoppingItem = document.getElementById("newTag").value;
     this.setState({
       count: this.state.value + 1,
-      tags: this.state.tags.concat(document.getElementById("newTag").value)
+      tags: this.state.tags.concat(shoppingItem)
     });
   };
 }
