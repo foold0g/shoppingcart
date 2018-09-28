@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #b2ffff;
+}
+
+nav ul {
+  list-style: none;
+  background: linear-gradient(217deg, #d891ef, #060606);
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+}
+
+.content-area {
+  height: 100%;
+  width: 100%;
+  background: #0ac9eb;
+}
+
+.content-panel {
+  display: inline-block;
+}
+
+.left-panel {
+  width: 20%;
+}
+
+.center-panel {
+  width: 60%;
+}
+
+.right-panel {
+  width: 20%;
+}
+
+.col-indent {
+  padding: 20px;
+}
